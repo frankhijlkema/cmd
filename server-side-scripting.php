@@ -9,7 +9,6 @@ require('../inc/functions.inc.php');
 
 authenticeer();
 
-# Maak connectie met de database op de MySQLI manier
 $link = dbConnect();
 
 if(isset($_GET['pagina']) && $_GET['pagina'] == "paginas")
